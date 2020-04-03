@@ -28,10 +28,53 @@ h2 {
     text-align: center;
 }
 
-.divider {
+.top-divider {
   border: none;
   border-top: 10px solid rgb(40, 40, 73);
   border-bottom: 5px solid rgb(40, 40, 73);
   padding: 2px;
   border-radius: 2px;
+  margin-bottom: 2em;
 }
+
+/* -----FORM STYLES----- */
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.input {
+    background-color: whitesmoke;
+    width: 90%;
+    height: 2.5em;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: rgb(146, 141, 141);
+}
+
+.input-postcode {
+    background-color: whitesmoke;
+    width: 40%;
+    height: 2.5em;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: rgb(146, 141, 141);
+}
+
+.input-labels {
+    color: rgb(146, 141, 141);
+    margin-top: 10px;
+}
+
+.input:hover {
+    box-shadow: 0 0 5px rgb(40, 40, 73);
+    background-color: white;
+    cursor: pointer;
+}
+
