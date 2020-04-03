@@ -1,0 +1,37 @@
+/* -----Universal----- */
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+p {
+    font-size: 1.25em;
+    color: rgb(209, 203, 203);
+}
+
+h2 {
+    font-size: 2em;
+}
+
+/* -------HEADER STYLES------ */
+
+.top-header {
+    background-color: rgb(40, 40, 73);
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.title {
+    padding: 8px;
+    text-align: center;
+}
+
+.divider {
+  border: none;
+  border-top: 10px solid rgb(40, 40, 73);
+  border-bottom: 5px solid rgb(40, 40, 73);
+  padding: 2px;
+  border-radius: 2px;
+}
