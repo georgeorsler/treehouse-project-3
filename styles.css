@@ -88,12 +88,12 @@ form {
     width: 100%;
 }
 
-.newsletter-questions {
+/* .newsletter-questions {
     font-family: 'Merriweather', serif;
     color: rgb(146, 141, 141);
     padding: 15px;
     padding-top: 300px;
-}
+} */
 
 .text-area {
     background-color: whitesmoke;
@@ -104,4 +104,19 @@ form {
     margin-bottom: 10px;
     border: none;
     box-shadow: rgb(146, 141, 141);
+}
+
+.submit-button {
+    width: 90%;
+    background-color: rgb(24, 155, 160);
+    color: white;
+    font: bolder;
+    padding: 15px;
+    font-size: x-large;
+    font-family: 'Merriweather', serif;   
+}
+
+button:hover {
+    box-shadow: 0 0 5px rgb(40, 40, 73);
+    cursor: pointer;
 }
