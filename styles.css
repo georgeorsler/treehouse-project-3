@@ -54,6 +54,15 @@ form {
     margin-bottom: 10px;
     border: none;
     box-shadow: rgb(146, 141, 141);
+    font-family: 'Merriweather', serif;
+    font-size: 1em;
+    color: black;
+}
+
+input::placeholder{
+    text-align: right;
+    font-style: italic;
+    color: rgb(209, 203, 203);
 }
 
 .input-postcode {
@@ -88,12 +97,11 @@ form {
     width: 100%;
 }
 
-/* .newsletter-questions {
+.newsletter-questions {
     font-family: 'Merriweather', serif;
     color: rgb(146, 141, 141);
     padding: 15px;
-    padding-top: 300px;
-} */
+}
 
 .text-area {
     background-color: whitesmoke;
@@ -104,6 +112,9 @@ form {
     margin-bottom: 10px;
     border: none;
     box-shadow: rgb(146, 141, 141);
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    color: rgb(209, 203, 203);
 }
 
 .submit-button {
@@ -120,3 +131,11 @@ button:hover {
     box-shadow: 0 0 5px rgb(40, 40, 73);
     cursor: pointer;
 }
+
+/* ---- Footer ---- */
+
+.footer {
+    text-align: center;
+    font-style: italic;
+}
+
