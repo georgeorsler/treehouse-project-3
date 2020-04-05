@@ -39,11 +39,14 @@ h2 {
 
 /* -----FORM STYLES----- */
 
-form {
-    display: flex;
-    flex-direction: column;
+
+.fieldset-top {
+    display: inline-flex;
     border: none;
+    justify-content: center;
+    width: 100%;
 }
+
 
 .input {
     background-color: whitesmoke;
@@ -85,6 +88,11 @@ input::placeholder{
     box-shadow: 0 0 5px rgb(40, 40, 73);
     background-color: white;
     cursor: pointer;
+}
+
+.fieldset-bottom {
+    border: none;
+    justify-content: space-between;
 }
 
 .bottom-divider {
@@ -137,5 +145,38 @@ button:hover {
 .footer {
     text-align: center;
     font-style: italic;
+}
+
+/* ----Media Queries---- */
+
+@media (min-width: 768px) { 
+
+    .input {
+        align-items: center;
+        display: inline;
+    }
+
+   .fieldset-top {
+       display: inline;
+       max-width: 600px;
+       justify-content: center;
+   }
+
+    .row {
+        display: inline;
+    }
+
+    .input-postcode {
+        max-width: 500px;
+        align-items: center;
+        margin: auto    ;
+    }
+
+    form {
+        align-items: center;
+        justify-content: center;
+        max-width: 800px;
+    }    
+
 }
 
