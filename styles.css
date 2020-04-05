@@ -56,7 +56,7 @@ h2 {
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
-    box-shadow: rgb(146, 141, 141);
+    box-shadow: initial;
     font-family: 'Merriweather', serif;
     font-size: 1em;
     color: black;
@@ -76,7 +76,7 @@ input::placeholder{
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
-    box-shadow: rgb(146, 141, 141);
+    box-shadow: initial;
 }
 
 .input-labels {
@@ -119,7 +119,7 @@ input::placeholder{
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
-    box-shadow: rgb(146, 141, 141);
+    box-shadow: initial;
     font-family: 'Merriweather', serif;
     font-style: italic;
     color: rgb(209, 203, 203);
@@ -160,6 +160,7 @@ button:hover {
        display: inline;
        max-width: 600px;
        justify-content: center;
+       margin: auto;
    }
 
     .row {
@@ -171,12 +172,6 @@ button:hover {
         align-items: center;
         margin: auto    ;
     }
-
-    form {
-        align-items: center;
-        justify-content: center;
-        max-width: 800px;
-    }    
 
 }
 
