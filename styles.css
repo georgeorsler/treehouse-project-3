@@ -154,18 +154,15 @@ button:hover {
     .input {
         align-items: center;
         display: inline;
+        
     }
 
    .fieldset-top {
        display: inline;
        max-width: 600px;
        justify-content: center;
-       margin: auto;
+       align-items: center;
    }
-
-    .row {
-        display: inline;
-    }
 
     .input-postcode {
         max-width: 500px;
