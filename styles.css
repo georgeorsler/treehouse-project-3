@@ -1,5 +1,12 @@
 /* -----Universal----- */
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Merriweather', serif;
 }
@@ -158,10 +165,9 @@ button:hover {
     }
 
    .fieldset-top {
-       display: inline;
+       display: block;
        max-width: 600px;
-       justify-content: center;
-       align-items: center;
+       margin: auto;
    }
 
     .input-postcode {
