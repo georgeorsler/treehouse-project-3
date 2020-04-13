@@ -1,11 +1,11 @@
 /* -----Universal----- */
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
-}
+} */
 
 body {
     font-family: 'Merriweather', serif;
@@ -165,7 +165,9 @@ button:hover {
 
     .input {
         align-items: center;
-        display: inline;
+        display: block;
+        margin: auto;
+        
         
     }
 
@@ -181,11 +183,19 @@ button:hover {
         margin: auto    ;
     }
 
-    label {
-        font-size: 16;
-        margin-bottom: 16px;
-        flex-basis: 30%;
-    }
+        .submit-button {
+            max-width: 600px;
+            align-items: center;
+            margin: auto;
+            display: block;
+        }
+
+        .fieldset-bottom {
+            margin: auto;
+            display: block;
+        }
+
+        
 
 }
 
