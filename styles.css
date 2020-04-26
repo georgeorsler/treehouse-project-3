@@ -141,10 +141,10 @@ input::placeholder{
 }
 
 .submit-button {
-    width: 90%;
+    width: 100%;
     background-color: rgb(24, 155, 160);
     color: white;
-    font: bolder;
+    font-weight: 600;
     padding: 15px;
     font-size: x-large;
     font-family: 'Merriweather', serif;   
@@ -182,7 +182,7 @@ button:hover {
             max-width: 600px;
             align-items: center;
             margin: auto;
-            display: block;
+            
         }
 
         .fieldset-bottom {
