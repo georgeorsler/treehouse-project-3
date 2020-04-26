@@ -28,6 +28,8 @@ h2 {
     margin-bottom: 80px;
 }
 
+
+
 /* -------HEADER STYLES------ */
 
 .top-header {
@@ -85,14 +87,7 @@ input::placeholder{
 }
 
 .input-postcode {
-    background-color: whitesmoke;
     width: 40%;
-    height: 2.5em;
-    padding: 5px;
-    margin-top: 8px;
-    margin-bottom: 24px;
-    border: none;
-    box-shadow: initial;
 }
 
 .input-labels {
@@ -174,8 +169,6 @@ button:hover {
     .input {
         align-items: center;
         display: block;
-        margin: auto;
-        
         
     }
 
@@ -184,12 +177,6 @@ button:hover {
        max-width: 600px;
        margin: auto;
    }
-
-    .input-postcode {
-        max-width: 500px;
-        align-items: center;
-        margin: auto    ;
-    }
 
         .submit-button {
             max-width: 600px;
@@ -203,7 +190,20 @@ button:hover {
             display: block;
         }
 
-        
+        .row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+
+        label {
+            flex-basis: 30%;
+        }
+
+        input,
+        select {
+            flex-basis: 70%;
+        }
 
 }
 
