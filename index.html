@@ -38,7 +38,7 @@
 
              <div>
                 <label for="number" class="input-labels">Phone Number</label>
-                <input type="number" id="number" name="number" class="input">
+                <input type="tel" id="number" name="number" class="input">
             </div>  
 
             <div>
@@ -77,9 +77,12 @@
             <legend><h2>Newsletter</h2></legend>
 
             <p>Select the newsletters you would like to recieve</p>
-            <input type="checkbox" class="newsletter-questions" name="newsletter-type" value="HTML News">HTML News<br>
-            <input type="checkbox" class="newsletter-questions" name="newsletter-type" value="CSS News">CSS News<br>
-            <input type="checkbox" class="newsletter-questions" name="newsletter-type" value="Javascript News">Javascript news<br>
+            <input type="checkbox"  id="news-html" class="newsletter-questions" name="newsletter-type" value="HTML News">
+            <label for="news-html">HTML news</label><br>
+            <input type="checkbox" id="news-css"  class="newsletter-questions" name="newsletter-type" value="CSS News">
+            <label for="news-css">CSS news</label><br>
+            <input type="checkbox" id="news-javascript"  class="newsletter-questions" name="newsletter-type" value="Javascript News">
+            <label for="news-javascript">Javascript news</label><br>
 
             <p>Newsletter format</p>
             <input type="radio" id="HTML" name="format" value="HTML" class="newsletter-questions">
