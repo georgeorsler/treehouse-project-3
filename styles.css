@@ -68,13 +68,14 @@ h2 {
     width: 90%;
     height: 2.5em;
     padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 24px;
     border: none;
     box-shadow: initial;
     font-family: 'Merriweather', serif;
     font-size: 1em;
     color: black;
+
 }
 
 input::placeholder{
@@ -88,15 +89,14 @@ input::placeholder{
     width: 40%;
     height: 2.5em;
     padding: 5px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 8px;
+    margin-bottom: 24px;
     border: none;
     box-shadow: initial;
 }
 
 .input-labels {
     color: rgb(146, 141, 141);
-    margin-top: 10px;
 }
 
 .input:hover {
