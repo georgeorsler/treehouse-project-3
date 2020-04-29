@@ -102,6 +102,7 @@ input::placeholder{
 
 .input:focus {
     background-color: rgb(226, 226, 229);
+    transition: ease-in-out;
 }
 
 .fieldset-bottom {
